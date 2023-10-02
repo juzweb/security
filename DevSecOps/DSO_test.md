@@ -53,4 +53,5 @@ Here are a few tools to help with the job:
 Infrastructure testing: tools such as Terratest, Test Kitchen, or ServerSpec enable DevOps teams to test servers and infrastructure code by making API calls, HTTP requests, and so on. Similarly, Tenable's Nessus can probe networks for points of entry to identify vulnerabilities in an application's surface.
 Infrastructure compliance: the Open Policy Agent's policy engine allows DevOps teams to write custom rules for how their web application should behave (such as defining access to service APIs or resources that users can call operations on). These are then enforced throughout the stack. Combining this with tools such as Chef's Inspec (a customizable infrastructure testing framework) can ensure your newest infrastructure changes comply with your requirements.
 
-
+# Tooling – vulnerability management
+With all the scans and tests occurring during this phase, it would be hard to manually keep track of the results and remember what needs fixing. This is where vulnerability management tools like ArcherySec or DefectDojo come in handy. These tools compile the reports from multiple scans, creating useful metrics that can identify common causes of test failures and provide feedback to developers.
